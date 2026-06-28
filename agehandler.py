@@ -10,5 +10,11 @@ except SyntaxError as age:
     print("not allowed")
 except IOError as age:
     print("Input/output error")
-finally:
-    ("Age is just a number")
+if age/2==0:
+    print("Age is even")
+else:
+    print("Age is odd")
+
+
+
+
